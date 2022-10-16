@@ -22,7 +22,15 @@ class Contacto :
 def modificar():
     informar()
     indice = int(input("Ingrese el numero de contacto que desea Modificar: "))
-    nombre = input("Ingrese nuevo nombre: ")
+    nombre = input("Ingrese nuevo Nombre: ")
+    listaContactos[indice - 1].setNombre(nombre)
+    apellido = input("Ingrese nuevo Apellido: ")
+    listaContactos[indice - 1].setApellido(apellido)
+    telefono = input("Ingrese nuevo Telefono: ")
+    listaContactos[indice - 1].setTelefono(telefono)
+    correo = input("Ingrese nuevo Correo: ")
+    listaContactos[indice - 1].setCorreo(correo)
+    
 
 def borrar():
     informar()

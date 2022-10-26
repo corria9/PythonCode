@@ -33,7 +33,7 @@ if __name__=='__main__':
     #mi_lista = [1, 3, 5, 7, 9, 12, 15, 23, 45]
     #print(busqueda_binaria(mi_lista, 7))
 
-    tamaño = 10000
+    tamaño = 20000
     conjunto_inicial = set()
 
     while len(conjunto_inicial) < tamaño:
